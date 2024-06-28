@@ -1,4 +1,8 @@
-
-export default function Home() {
-  return <div>Hello world</div>;
+import HomeContainer from "../containers/HomeContainer";
+export default function page() {
+  return (
+    <div>
+      <HomeContainer />
+    </div>
+  );
 }
